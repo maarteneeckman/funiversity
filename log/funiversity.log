@@ -1,0 +1,42 @@
+2020-03-23 17:24:02.501  INFO 2172 --- [main] c.s.f.f.FuniversityApplication           : Starting FuniversityApplication on CI00092537 with PID 2172 (C:\_development\switchfully\codelabprojects\funiversity\target\classes started by driesbo in C:\_development\switchfully\codelabprojects\funiversity)
+2020-03-23 17:24:02.504  INFO 2172 --- [main] c.s.f.f.FuniversityApplication           : No active profile set, falling back to default profiles: default
+2020-03-23 17:24:03.305  INFO 2172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-23 17:24:03.310  INFO 2172 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-23 17:24:03.319  INFO 2172 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-23 17:24:03.400  INFO 2172 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-23 17:24:03.401  INFO 2172 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 856 ms
+2020-03-23 17:24:03.535  INFO 2172 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-23 17:24:03.943  INFO 2172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-23 17:24:03.946  INFO 2172 --- [main] c.s.f.f.FuniversityApplication           : Started FuniversityApplication in 1.757 seconds (JVM running for 2.465)
+2020-03-23 17:24:07.687  INFO 2172 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-23 17:24:07.688  INFO 2172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-23 17:24:07.696  INFO 2172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-03-23 17:24:07.771  INFO 2172 --- [http-nio-8080-exec-1] c.s.f.f.API.ProfessorController          : A new professor was created.
+2020-03-23 17:26:02.657  INFO 12824 --- [main] c.s.f.f.FuniversityApplication           : Starting FuniversityApplication on CI00092537 with PID 12824 (C:\_development\switchfully\codelabprojects\funiversity\target\classes started by driesbo in C:\_development\switchfully\codelabprojects\funiversity)
+2020-03-23 17:26:02.660  INFO 12824 --- [main] c.s.f.f.FuniversityApplication           : No active profile set, falling back to default profiles: default
+2020-03-23 17:26:03.537  INFO 12824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-23 17:26:03.545  INFO 12824 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-23 17:26:03.546  INFO 12824 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-23 17:26:03.624  INFO 12824 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-23 17:26:03.625  INFO 12824 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 916 ms
+2020-03-23 17:26:03.752  INFO 12824 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-23 17:26:04.103  INFO 12824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-23 17:26:04.106  INFO 12824 --- [main] c.s.f.f.FuniversityApplication           : Started FuniversityApplication in 1.755 seconds (JVM running for 2.49)
+2020-03-23 17:26:19.361  INFO 12824 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-23 17:26:19.365  INFO 12824 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-23 17:26:19.381  INFO 12824 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-03-23 17:26:19.468 ERROR 12824 --- [http-nio-8080-exec-1] c.s.f.f.API.ProfessorController          : Professor doesn't exist.
+2020-03-23 17:34:30.363  INFO 11300 --- [main] c.s.f.f.FuniversityApplication           : Starting FuniversityApplication on CI00092537 with PID 11300 (C:\_development\switchfully\codelabprojects\funiversity\target\classes started by driesbo in C:\_development\switchfully\codelabprojects\funiversity)
+2020-03-23 17:34:30.367  INFO 11300 --- [main] c.s.f.f.FuniversityApplication           : No active profile set, falling back to default profiles: default
+2020-03-23 17:34:31.267  INFO 11300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-23 17:34:31.273  INFO 11300 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-23 17:34:31.274  INFO 11300 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-23 17:34:31.372  INFO 11300 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-23 17:34:31.372  INFO 11300 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 944 ms
+2020-03-23 17:34:31.515  INFO 11300 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-23 17:34:31.877  INFO 11300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-23 17:34:31.886  INFO 11300 --- [main] c.s.f.f.FuniversityApplication           : Started FuniversityApplication in 1.89 seconds (JVM running for 2.709)
+2020-03-23 17:34:39.171  INFO 11300 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-23 17:34:39.172  INFO 11300 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-23 17:34:39.176  INFO 11300 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-03-23 17:34:39.259 ERROR 11300 --- [http-nio-8080-exec-1] c.s.f.f.API.ProfessorController          : Professor doesn't exist.
