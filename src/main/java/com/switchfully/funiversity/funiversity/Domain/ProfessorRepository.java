@@ -22,7 +22,11 @@ public class ProfessorRepository {
     }
 
     public Professor getProfessor(String id) {
-       return professorMap.get(id);
+       Professor professor = professorMap.get(id);
+       if (professor == null){
+           throw new IllegalArgumentException("Prof with this id does not exist in repository.");
+       }
+       return professor;
     }
 
     public void deleteProfessor(String id) {

@@ -1,25 +1,25 @@
 package com.switchfully.funiversity.funiversity.Domain;
 
 public class Professor {
-    String id;
-    String firstname;
-    String Lastname;
+    private String id;
+    private String firstName;
+    private String LastName;
 
     public Professor(String id, String firstname, String lastname) {
         this.id = id;
-        this.firstname = firstname;
-        Lastname = lastname;
+        this.firstName = firstname;
+        LastName = lastname;
     }
 
     public String getId() {
         return id;
     }
 
-    public String getFirstname() {
-        return firstname;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public String getLastname() {
-        return Lastname;
+    public String getLastName() {
+        return LastName;
     }
 }

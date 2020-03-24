@@ -14,7 +14,7 @@ public class ProfessorMapper {
     }
 
     public ProfessorDto profToProfDto(Professor professor){
-        return new ProfessorDto(professor.getId(), professor.getFirstname(), professor.getLastname());
+        return new ProfessorDto(professor.getId(), professor.getFirstName(), professor.getLastName());
     }
 
     public Professor updateDtoToProfessor(UpdateProfessorDto updateProfessorDto, String id) {
